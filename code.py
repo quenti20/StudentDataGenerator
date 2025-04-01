@@ -3,7 +3,7 @@ import streamlit as st
 import base64
 import tempfile
 import os
-from google import genai
+import google.genai as genai
 from google.genai import types
 import pandas as pd
 from dotenv import load_dotenv
